@@ -13,8 +13,9 @@ a {
     color: #E5E7EB;
 }
 
-img {
+.hero-image {
     max-width: 400px;
+    max-height: 200px;
 }
 
 .header {
@@ -53,11 +54,40 @@ img {
     padding: 5px;
 }
 
-.first-signup {
+.first-signup-button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
     padding: 5px 20px;
     border: 0;
     border-radius: 5px;
+}
+
+.information {
+    text-align: center;
+}
+
+.info-header {
+    font-weight: 1000;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.info-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    border: solid;
+    border-color: #3882F6;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.image-n-text {
+    width: 130px;
 }
