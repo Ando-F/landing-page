@@ -2,6 +2,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ul {
@@ -115,6 +116,7 @@ a {
     font-style: italic;
     color: #1F2937;
     width: 600px;
+    margin: 50px 0 0 0;
 }
 
 .author {
@@ -122,4 +124,62 @@ a {
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
+    margin: 0 0 50px 0;
+    
+}
+
+/* Styling call to action container */
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.blue-container {
+    background-color: #3882F6;
+    margin: 50px;
+    padding: 0 50px;
+    border-radius: 5px;
+    width: 700px;
+}
+
+.inside-blue-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.inside-text {
+    color: #F9FAF8;
+}
+
+.h-cta {
+    margin: 0;
+}
+
+.p-cta {
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+}
+
+.second-signup-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 5px 20px;
+    border: solid 2px;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+}
+
+/* Styling footer */
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
